@@ -1,0 +1,9 @@
+{
+  "firebase": "gui-stack",
+  "public": "src",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

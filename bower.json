@@ -1,0 +1,26 @@
+{
+  "name": "gui_stack",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ericquayson <ericquayson@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/stack-stack/gui_stack",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.7",
+    "modernizr": "~3.1.0",
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}

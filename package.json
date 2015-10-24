@@ -1,0 +1,30 @@
+{
+  "name": "gui_stack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "browser-sync start --server --directory --files='src/*.html, src/main.css'",
+    "sass": "node-sass src/scss/main.scss src/css/main.css",
+    "install:bower": "bower install --save",
+    "postinstall:bower": "wiredep --src 'src/*.html'",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stack-stack/gui_stack.git"
+  },
+  "author": "ericquayson <ericquayson@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stack-stack/gui_stack/issues"
+  },
+  "homepage": "https://github.com/stack-stack/gui_stack",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "node-sass": "^3.3.3",
+    "sass": "^0.5.0",
+    "wiredep": "^3.0.0-beta"
+  }
+}
