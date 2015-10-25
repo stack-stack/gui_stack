@@ -1,0 +1,11 @@
+<form ng-app="gui-question-template" ng-controller="QuestionCtrl" class="questions-template">
+  <h1>Hello, {{member.username}}!</h1>
+  <div class="profile-image">{{member.profile_image}}</div>
+  <em>Enter your question below</em><br>
+  <label><strong>title:</strong></label> <input class="questions-title" type="text" name="questions-form" placeholder="What's your programming question? Be specific"> <br>
+  <textarea ng-minlength="5" required class="questions-textarea"></textarea>
+
+  <hr />
+  <hr />
+  <button class="questions-botton">Post Your Question</button>
+</form> <!-- end of .questions-template -->
