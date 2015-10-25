@@ -7,22 +7,25 @@
 //       name: "",
 //       password: "",
 //     }
+//
 //     $scope.submit= function(){
-//       $http.post("https://stack-stack.herokuapp.com/members/", $scope.formvalues)
+//      $http.post("https://stack-stack.herokuapp.com/members/create", $scope.formvalues)
+//       // $http.post('api/stack.json')
 //       .then(function (response){
-//         console.log("can you hear me? please god hear me",response);
+//         console.log(response);
 //       });
 //     };
 //   })
-//     .run(function($http, $rootScope){
-//       $http.get('https://stack-stack.herokuapp.com/questions/show/1.json')
-//       // $http.get('../questions.json')
-//         .then(function (response){
-//           console.log(arguments);
-//           $rootScope.questions = response.data;
-//           });
-//         });
-// })(); //END IIFE
+//   console.log("yoyo")
+//     // .run(function($http, $rootScope){
+//     // //  $http.get('https://stack-stack.herokuapp.com/questions/show/1.json')
+//     //   $http.get('api/stack.json')
+//     //     .then(function (response){
+//     //       //console.log(arguments);
+//     //       $rootScope.questions = response.data;
+//     //       });
+//     //     });
+// })();
 
 // ;(function(){
 //   angular.module('gui', [ ])

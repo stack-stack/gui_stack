@@ -18,11 +18,15 @@
   })
   console.log("yoyo")
     // .run(function($http, $rootScope){
-    // //  $http.get('https://stack-stack.herokuapp.com/questions/show/1.json')
-    //   $http.get('api/stack.json')
+    //  $http.get('https://stack-stack.herokuapp.com/questions/show/1.json')
+    //   // $http.get('api/stack.json')
     //     .then(function (response){
     //       //console.log(arguments);
     //       $rootScope.questions = response.data;
     //       });
     //     });
+      .when('/login/submit', {
+        templateUrl: '../body-view.html',
+        controller: 'login-Controller'
+      })
 })();
