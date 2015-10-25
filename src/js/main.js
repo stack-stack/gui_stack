@@ -9,8 +9,8 @@
     }
 
     $scope.submit= function(){
-    //  $http.post("https://stack-stack.herokuapp.com/members/", $scope.formvalues)
-      $http.post('api/stack.json')
+     $http.post("https://stack-stack.herokuapp.com/members/create", $scope.formvalues)
+      // $http.post('api/stack.json')
       .then(function (response){
         console.log(response);
       });
